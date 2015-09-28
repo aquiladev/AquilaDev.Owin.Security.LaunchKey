@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AquilaDev.Owin.Security.LaunchKey", "src\AquilaDev.Owin.Security.LaunchKey.csproj", "{ED9E891C-B8A9-4AB9-8F19-C79E5FA79FCE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LaunchKey.Web", "examples\LaunchKey.Web\LaunchKey.Web.csproj", "{9BF03BFD-E999-4D97-834F-2663C65CA5BD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "examples", "examples", "{283046CA-7120-4649-89EC-19B82FAB87F8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{AFB535A8-529C-4626-99BA-EAFADF00628D}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ED9E891C-B8A9-4AB9-8F19-C79E5FA79FCE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED9E891C-B8A9-4AB9-8F19-C79E5FA79FCE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED9E891C-B8A9-4AB9-8F19-C79E5FA79FCE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED9E891C-B8A9-4AB9-8F19-C79E5FA79FCE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9BF03BFD-E999-4D97-834F-2663C65CA5BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9BF03BFD-E999-4D97-834F-2663C65CA5BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9BF03BFD-E999-4D97-834F-2663C65CA5BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9BF03BFD-E999-4D97-834F-2663C65CA5BD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{9BF03BFD-E999-4D97-834F-2663C65CA5BD} = {283046CA-7120-4649-89EC-19B82FAB87F8}
+	EndGlobalSection
+EndGlobal
