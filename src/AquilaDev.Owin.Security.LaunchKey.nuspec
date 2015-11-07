@@ -9,6 +9,7 @@
 		<language>en-US</language>
 		<projectUrl>https://github.com/aquiladev/AquilaDev.Owin.Security.LaunchKey</projectUrl>
 		<licenseUrl>https://raw.githubusercontent.com/aquiladev/AquilaDev.Owin.Security.LaunchKey/master/LICENSE</licenseUrl>
+		<iconUrl>https://s3.amazonaws.com/launchkey-resources/logo/logo/launchkey-logos_launchkey-icon-blue.png</iconUrl>
 		<requireLicenseAcceptance>false</requireLicenseAcceptance>
 		<copyright>© 2015 Sergii Bomko</copyright>
 		<tags>OWIN Security OAuth LaunchKey</tags>

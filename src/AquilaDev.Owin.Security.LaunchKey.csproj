@@ -72,6 +72,7 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <None Include="AquilaDev.Owin.Security.LaunchKey.nuspec" />
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
