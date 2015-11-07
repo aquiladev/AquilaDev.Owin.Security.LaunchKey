@@ -13,9 +13,15 @@ app.UseLaunchKeyAuthentication(
 ```
 *Keys you can find in your [dashboard](https://dashboard.launchkey.com). You can find more about it [here](https://docs.launchkey.com/common/getting-started-guide.html#set-up-your-keys).
 
-This project runs on specific uri, because we deal with OAuth, the uri is _http://local.launchkey.dev_. That is why you should'n forget to change **hosts** system file:
+### Settings
+* This project runs on specific uri, because we deal with OAuth, the uri is _http://local.launchkey.dev_. That is why you should'n forget to change **hosts** system file:
 ```
 127.0.0.1		local.launchkey.dev
+```
+
+* Do not forget to change config for **IISEpress**, file **applicationhost.config**. You need to add new binding for the project.
+```
+<binding protocol="http" bindingInformation=":80:local.launchkey.dev" />
 ```
 
 ### Important
