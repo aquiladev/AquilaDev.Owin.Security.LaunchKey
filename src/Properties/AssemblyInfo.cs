@@ -5,7 +5,7 @@ using System.Runtime.InteropServices;
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
 [assembly: AssemblyTitle("AquilaDev.Owin.Security.LaunchKey")]
-[assembly: AssemblyDescription("Contains middlewares to support LaunchKey's OAuth 2.0 authentication workflows.")]
+[assembly: AssemblyDescription("Middleware that enables an application to use LaunchKey's OAuth 2.0 authentication workflows.")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("Sergii Bomko")]
 [assembly: AssemblyProduct("AquilaDev.Owin.Security.LaunchKey")]
